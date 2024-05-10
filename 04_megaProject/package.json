@@ -1,0 +1,15 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "backend for youtube",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "deepak yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

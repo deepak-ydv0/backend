@@ -18,6 +18,15 @@ app.use(express.static("public"))  //public is a folder name it is use for the a
 app.use(cookieParser())
 
 
+// routes
+
+import userRouter from './routes/user.routes.js'
+
+
+//routes declaration
+app.use("/api/v1/users", userRouter)
+
+
 
 
 
